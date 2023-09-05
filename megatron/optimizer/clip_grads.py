@@ -19,7 +19,7 @@ import torch
 try:
   from torch._six import inf
 except ModuleNotFoundError:
-  from torch.six import inf
+  from torch import inf
 
 from apex.multi_tensor_apply import multi_tensor_applier
 import amp_C
